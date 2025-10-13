@@ -21,7 +21,7 @@ boton.pack()
 
 label = tk.label(root, text = "Hola", font = ("Arial", 14))
 label.pack()
-
+label.config(text="mela")
 entrada = tk.Entry(root)
 entrada.pack()
 
